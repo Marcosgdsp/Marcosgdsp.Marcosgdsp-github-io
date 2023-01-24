@@ -1,0 +1,159 @@
+body{
+    background-color: black;
+    color: violet;
+    
+}
+
+.move{
+    width: 200px;
+    border-radius: 60px;
+}
+*{
+    list-style: none;
+}
+
+li{
+    display: flex;
+    display: inline-block;
+    font-size: 20px;
+    
+}
+ul{
+    word-spacing: 20px;
+    
+}
+header h1{
+ font-size: 40px;
+ font-family: Courgette;
+}
+header h1:hover{
+    color: blueviolet;
+    transition: 4s;
+}
+header{
+    background-color: rgb(30, 0, 60);
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border-radius: 20px;
+    background-color: rgb(55, 2, 108);
+    
+}
+span:hover{
+    color: rgb(30, 0, 58);
+}
+a{
+    color: darkmagenta;
+}
+
+a:hover{
+    color: white;
+    transition: 3s;
+}
+.init h2:hover{
+    background-color: rgb(117, 85, 147);
+    color: rgb(50, 0, 96);
+    transition: 4s;
+}
+.init{
+    text-align: center;
+    font-size: 30px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px 20px;
+    background-color: rgb(27, 1, 45);
+}
+
+.esquerda{
+    background-color: rgb(25, 23, 23);
+    width: 100px;
+    padding: 20px 20px;
+}
+
+.centro{
+    padding: 20px 20px;
+}
+
+.direita{
+    width: 500px;
+    max-width: 400px;
+    padding: 20px 20px;
+}
+.direita h2{
+    text-align: center;
+}
+p{
+    font-size: 19px;
+}
+
+.second{
+    width: 600px;
+}
+
+footer{
+    background-color:  rgb(30, 0, 60);
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Courgette;
+    
+}
+
+.in{
+   display: flex;
+   justify-content: space-around;
+   color: bisque;
+   font-family: Courgette;
+}
+
+.sobre{
+    text-align: center;
+    color: white;
+    font-family: Courgette;
+    font-size: 30px;
+}
+
+p{
+    font-family: Rowdies;
+}
+
+.inscrevase {
+    text-align: center;
+}
+
+input{
+    border-radius: 30px;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid red;
+}
+input:hover{
+ border: 3px solid rgb(87, 0, 153);
+}
+
+label{
+    font-size: 40px;
+}
+
+label:hover{
+    font-size: 50px;
+    
+}
+
+#sub{
+  width: 200px;
+  
+}
+
+#sub:hover{
+    background-color: darkviolet;
+}
+
+
